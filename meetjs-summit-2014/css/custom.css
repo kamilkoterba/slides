@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+/*********************************************
+ * CUSTOM
+ *********************************************/
+body, .reveal p {
+	font-family: 'galaxiemedium';
+}
+
+.reveal h1, .reveal h2, .reveal h3  {
+	font-family: 'galaxieheavy';
+}
+
+.reveal h2  {
+	line-height: 1em;
+}
+
+.reveal section img {
+	border: 0;
+	background: transparent;
+	vertical-align: middle;
+}
+
+.reveal section p small {
+	vertical-align: middle;
+}
+
+
+.reveal a:not(.image),
+.reveal a:not(.image):hover {
+	color: #a6de06;
+}
+
+.reveal .middle {
+	vertical-align: middle;
+}
+
+.reveal .descr {
+	text-align: left;
+}
+
+.reveal .centered {
+	margin: auto;
+	display: block;
+}
+
+.reveal li {
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+.reveal table td {
+	vertical-align: top;
+}
