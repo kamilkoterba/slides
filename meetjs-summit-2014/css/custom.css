@@ -53,3 +53,7 @@ body, .reveal p {
 .reveal table td {
 	vertical-align: top;
 }
+
+.reveal a:hover {
+	text-decoration: underline;
+}
