@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Effective SVG icons management system</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -55,10 +55,10 @@
 				<section>
 					<h2> What's the plan</h2>
 					<ol>
-					<li class="fragment visible current-fragment" data-fragment-index="1"><em>Identify the problem</em></li>
-					<li class="fragment visible current-fragment" data-fragment-index="2"><em>Introduce the concept</em></li>
-					<li class="fragment visible current-fragment" data-fragment-index="3"><em>Implement the solution</em></li>
-					<li class="fragment visible current-fragment" data-fragment-index="4"><em>Unleash your enthusiasm</em></li>
+						<li class="fragment visible current-fragment" data-fragment-index="1"><em>Identify the problem</em></li>
+						<li class="fragment visible current-fragment" data-fragment-index="2"><em>Introduce the concept</em></li>
+						<li class="fragment visible current-fragment" data-fragment-index="3"><em>Implement the solution</em></li>
+						<li class="fragment visible current-fragment" data-fragment-index="4"><em>Unleash your enthusiasm</em></li>
 					</ol>
 				</section>
 
@@ -72,8 +72,8 @@
 						<h2>Kariera Wikia</h2>
 						<img src="img/kariera-main-page.png"/>
 						<div class="descr">
-						<div><img src="img/brackets.svg"/> kariera.wikia.com</div>
-						<div><img src="img/github-icon.svg"/> github.com/Wikia/careers-page </div>
+						<img src="img/brackets.svg"/> <a href="http://kariera.wikia.com/">kariera.wikia.com</a><br/>
+						<img src="img/github-icon.svg"/> <a href="https://github.com/Wikia/careers-page/">Careers page source code on github</a>
 						</div>
 					</section>
 				</section>
@@ -81,12 +81,11 @@
 				<section>
 					<h2>PNG vs SVG</h2>
 					<div style="background: #fff; padding: 50px">
-						<div class="fragment visible current-fragment" data-fragment-index="1">
-
+						<div>
 							<img src="img/github.png" style="box-shadow: none" width="30px"/>
 							<img src="img/github.svg" style="box-shadow: none" width="30px"/>
 						</div>
-						<div class="fragment visible current-fragment" data-fragment-index="2">
+						<div class="fragment visible current-fragment" data-fragment-index="1">
 						<img src="img/github.png" style="box-shadow: none" width="120px"/>
 						<img src="img/github.svg" style="box-shadow: none" width="120px"/>
 						</div>
@@ -182,7 +181,10 @@
 
 				<section>
 					<h2>Let's look<br/>at some code</h2>
-					<p style="font-size: 1.5em" class="fragment visible current-fragment" data-fragment-index="1">Source: <a href="http://kamilkoterba.github.io/svg-icons-example/">goo.gl/cMogBF</a> </p>
+					<p style="font-size: 1.5em" class="fragment visible current-fragment" data-fragment-index="1">
+							<a href="http://kamilkoterba.github.io/svg-icons-example/">Example</a><br/>
+							<a href="https://github.com/kamilkoterba/svg-icons-example">Source code</a><br/>
+					</p>
 				</section>
 
 				<section>
@@ -192,13 +194,18 @@
 					<h3 class="fragment visible current-fragment" data-fragment-index="1">8.4kB | gzip 2.8kB</h3>
 				</section>
 
-				<section>
-					<h2>Let's write<br/>the code</h2>
-				</section>
+				<!--<section>-->
+					<!--<h2>Let's write<br/>the code</h2>-->
+				<!--</section>-->
 
 				<section>
 					<h2>Improvements</h2>
 					<h3>:hover</h3>
+					<ol>
+						<li><a href="https://github.com/kamilkoterba/svg-icons-example/blob/gh-pages/Gruntfile.js#L41">Rename css to scss</a></li>
+						<li><a href="https://github.com/kamilkoterba/svg-icons-example/blob/gh-pages/assets/sass/app.scss#L2">Include scss icons file</a></li>
+						<li><a href="https://github.com/kamilkoterba/svg-icons-example/blob/gh-pages/assets/sass/app.scss#L100">Add hover color change</a></li>
+					</ol>
 
 				</section>
 

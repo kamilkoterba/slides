@@ -40,6 +40,10 @@ body, .reveal p {
 	text-align: left;
 }
 
+.reveal .descr img {
+	margin: 0;
+}
+
 .reveal .centered {
 	margin: auto;
 	display: block;
